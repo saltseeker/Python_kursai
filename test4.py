@@ -1,7 +1,17 @@
-sakinys = "kazkAs KaZkuR. labas petras"
+class Car: 
+     def __init__ (self): 
+         self.wheel = 4 
+         self.make = 'BWM' 
+    
+     def move(self):
+          return "move"
+          
 
-print(sakinys.upper())
-print(sakinys.casefold())
-print(sakinys.capitalize())
-print(sakinys.count("as"))
-print(sakinys.find("s"))
+
+          
+         
+
+
+
+car = Car()
+print(car.wheel, car.make, car.move())
